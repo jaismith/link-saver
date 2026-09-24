@@ -1,0 +1,23 @@
+{
+  "name": "link-saver",
+  "version": "0.1.0",
+  "description": "A small TypeScript CLI for saving links with tags.",
+  "bin": {
+    "link-saver": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx src/index.ts",
+    "link-saver": "tsx src/index.ts"
+  },
+  "keywords": ["cli", "bookmarks", "links"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
